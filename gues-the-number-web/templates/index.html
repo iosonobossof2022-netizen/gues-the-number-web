@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <h1>Guess the Number</h1>
+    <p>Type a number between 1 and 100. You have {{ lives }} lives left.</p>
+    <form method="POST">
+        <input type="text" name="guess" placeholder="Number or 'stop'" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p><strong>{{ feedback }}</strong></p>
+</body>
+</html>
